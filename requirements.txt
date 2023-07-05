@@ -5,4 +5,4 @@ matplotlib
 tqdm
 streamlit
 seaborn
-hamiltorch
+git+https://github.com/AdamCobb/hamiltorch
