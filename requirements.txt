@@ -3,6 +3,5 @@ scikit-learn
 numpy
 matplotlib
 tqdm
-streamlit
 seaborn
 git+https://github.com/AdamCobb/hamiltorch
