@@ -289,7 +289,7 @@ if "Polynomial Regression" in task:
     plt.ylabel('y')
 
     # Get posterior samples. Thin first 100 samples to remove burn-in
-    posterior_samples = params_hmc[30:]
+    posterior_samples = params_hmc[20:]
     for i in range(posterior_samples.shape[1]):
       if i == 0:
         y_hat = posterior_samples[:, i].unsqueeze(1) * torch.pow(x.cpu(), posterior_samples.shape[1] - 1 - i)
